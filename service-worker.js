@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/georgeSandor/Robots/precache-manifest.a77c869e7f039e0411a559e7f8e57766.js"
+  "/robots/precache-manifest.79d4f7fd28a0a28e273eaa0f5d581b05.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/georgeSandor/Robots/index.html", {
+workbox.routing.registerNavigationRoute("/robots/index.html", {
   
   blacklist: [/^\/_/,/\/[^\/]+\.[^\/]+$/],
 });
